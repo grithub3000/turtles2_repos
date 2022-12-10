@@ -2,7 +2,9 @@
 This program takes an integer as a command line argument and will draw that
 many mini versions of the scene with a house, 2 trees, and a sun. Typing
 an invalid character or string as the argument will return an error message,
-and thene exit. Each mini scene will be exactly half the size of the last.
+and then exit. Each mini scene will be exactly half the size of the last.
+Putting 0 in the command line will simply draw the scene once it its original
+size.
 '''
 
 import turtle
